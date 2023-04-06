@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(139, 161, 150); 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(23, 78, 52);
+}
+header h1{
+    color:white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: darkred;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Minecraft_banner.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.welcome h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome button{
+    padding: 10px 20px;
+    background-color: rgba(56, 214, 172, 0.859);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.aboutUs{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.aboutUs p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutUs h2{
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.new{
+    text-align: left;
+    padding: 40px 20px;
+}
+.news h2{
+    font-size: 25px;
+   margin-bottom: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.news ul{
+    list-style: disc;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul a:hover{
+    color:darkred;
+}
+.events{
+    text-align: left;
+    padding: 40px 20px;
+}
+.events h2{
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.events ul{
+    list-style: disc;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul a:hover{
+    color:darkred;
+}
+.gallery{
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.gallery h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagesContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+.imagesContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 14px;
+}
